@@ -47,6 +47,7 @@ Get-ChildItem -Path "$destination\*.ps1" | ForEach-Object {
   <Triggers>
     <LogonTrigger>
       <Enabled>true</Enabled>
+      <Delay>PT30S</Delay>
     </LogonTrigger>
   </Triggers>
   <Principals>
